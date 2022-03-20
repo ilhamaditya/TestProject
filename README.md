@@ -21,3 +21,6 @@ when().
 then().
     assertThat().statusCode(200);
 ```
+
+to run script
+Click tab Run -> Run or Right click on file Basics.java --> Run As Java Application
