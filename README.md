@@ -13,9 +13,11 @@ To run the tests, please ensure you have the following installed:
 
 ## How to run
 
+```
 given().
-    .body("JSON")
+    body("JSON")
 when().
     post("/path").
 then().
     assertThat().statusCode(200);
+```
