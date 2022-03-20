@@ -1,7 +1,9 @@
 package files;
 
+import org.testng.annotations.Test;
+
 public class payload {
-	
+	@Test
 	public String processOrder(String order_status, String last_updated_timestamp)
 	{
 		String payload = "{\n"
